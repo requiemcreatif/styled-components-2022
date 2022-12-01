@@ -7,7 +7,7 @@ import Side from "./Side";
 // Styled Components
 const MainContainer = styled.div`
     max-width: 1400px;
-    margin: 2rem auto;
+    margin: 8rem auto;
     display: grid;
     gap: 2rem;
     grid-template-columns: 2fr 1fr;

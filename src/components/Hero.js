@@ -7,14 +7,17 @@ const HeroContainer = styled.div`
     justify-content: center;
     align-items: left;
     gap: 4rem;
-    background: #000;
+    background: #203F59;
+    //background: #1A1826;
     color: #fff;
     height: auto;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 4rem 4rem;
+    padding: 10rem 4rem;
+    
     h1 {
         font-size: 10em;
+        color: #F2A766;
     }
     h2 {
         font-size: 1.5em;
@@ -23,12 +26,16 @@ const HeroContainer = styled.div`
     button {
         padding: 1.5rem 2.5rem;
         background: transparent;
-        color: #ffffff;
-        border: #ffffff solid 0.5px;
+        color: #F2A766;
+        border: #F2A766 solid 1px;
         border-radius: 5px;
         font-size: 1.5rem;
         width:200px;
         cursor: pointer;
+        &:hover {
+            background: #F2A766;
+            color: #fff;
+        }
     }
 
     @media (max-width: 768px) {

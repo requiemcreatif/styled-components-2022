@@ -8,8 +8,9 @@ const FooterContainer = styled.div`
     align-items: center;
     margin: 0 auto;
     padding: 4rem 4rem;
-    background-color: #000;
-    color: #fff;
+    background-color: #203F59;
+    //background: #323859;
+    color: #F2F2F2;
 `
 
 const Footer = () => {

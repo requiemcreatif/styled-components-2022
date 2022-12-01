@@ -5,6 +5,7 @@ import styled from "styled-components";
 const CardContainer = styled.div`
     padding: 2rem 0;
     div {
+        background-color: #F2F2F2;
         box-shadow: 0 0 10px rgba(0,0,0,0.2);
         @media (max-width: 768px) {
             margin: 2rem 0;
@@ -19,6 +20,7 @@ const CardContainer = styled.div`
     
     img {
         width: 100%;
+
     }
 
     @media (min-width: 768px) {
@@ -34,7 +36,7 @@ const Cards = ({images}) => {
   return( 
   <CardContainer>
         {images.map((image) => (
-            <div>
+            <div key={image.id}>
                 <img src={image.imgUrl} alt="" />
                 <section>
                 <h2>{image.title} </h2>
